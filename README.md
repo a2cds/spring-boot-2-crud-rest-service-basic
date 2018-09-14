@@ -15,17 +15,17 @@ Por não ter uma interface web, a manutenção das requisições JSON precisa se
 
 Executá-lo por meio do Run As > Spring Boot App
 
-a) Para listar os endereços no Postman
+a) Para listar os endereços no Postman  
 GET http://localhost:8080/enderecos
 
-b) Para visualizar um endereço por meio do ID no Postman
+b) Para visualizar um endereço por meio do ID no Postman  
 GET http://localhost:8080/enderecos/{id}
 
-c) Para excluir um endereço por meio do ID no Postman
+c) Para excluir um endereço por meio do ID no Postman  
 DELETE http://localhost:8080/enderecos/{id}
 
-d) Para incluir um endereço no Postman
+d) Para incluir um endereço no Postman  
 POST http://localhost:8080/enderecos
 
-e) Para interface de manutençao do banco de dados H2 no browser
+e) Para interface de manutençao do banco de dados H2 no browser  
 http://localhost:8080/h2-console
