@@ -11,7 +11,7 @@ Desenvolvido sob o Spring Boot, que é uma das formas mais simples de se disponi
 
 Para o acesso ao banco de dados in-memory H2, foi utilizado o suporte JPA do Spring Boot, cuja configuração de acesso foi feita por meio de um arquivo .properties e interação com o banco feita por uma interface do tipo Repository usando Spring Data JPA.
 
-Por não ter uma interface web, a manutenção das requisições JSON precisa ser feita por mei de um ADE - API Development Evironment, como por exemplo, o Postman, que pode ser baixado através da URL https://www.getpostman.com
+Por não ter uma interface web, a manutenção das requisições JSON precisa ser feita por meio de um ADE - API Development Evironment, como por exemplo, o Postman, que pode ser baixado através da URL https://www.getpostman.com
 
 Executá-lo por meio do Run As > Spring Boot App
 
